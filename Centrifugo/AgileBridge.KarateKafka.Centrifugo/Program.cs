@@ -15,11 +15,12 @@ Data userMove = JsonConvert.DeserializeObject<Data>(System.IO.File.ReadAllText(@
 
 var step = Step.Create("bomb_publisher", async context =>
 {
-    Random random = new Random();
+    Random random = new();
     var msg = JsonConvert.SerializeObject(new UserMove(userMove.Users[random.Next(userMove.Users.Count)], userMove.Moves[random.Next(userMove.Users.Count)]));
     try
     {
         var body = new StringContent("{\"method\":\"publish\",\"params\":{\"channel\":\"channel\",\"data\":{\"value\":\"" + msg + "\"}}}");
+        httpClient.DefaultRequestHeaders.Add("Authorization", "apikey 09fd409e-a2be-42f4-a10d-7cdb639d58d7");
         var response = await httpClient.PostAsync("api", body);
 
         return response.IsSuccessStatusCode
