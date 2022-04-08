@@ -1,0 +1,17 @@
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\bin\Debug\net6.0\RabitMQProducer.exe
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\bin\Debug\net6.0\RabitMQProducer.deps.json
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\bin\Debug\net6.0\RabitMQProducer.runtimeconfig.json
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\bin\Debug\net6.0\RabitMQProducer.dll
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\bin\Debug\net6.0\RabitMQProducer.pdb
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\obj\Debug\net6.0\RabitMQProducer.csproj.AssemblyReference.cache
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\obj\Debug\net6.0\RabitMQProducer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\obj\Debug\net6.0\RabitMQProducer.AssemblyInfoInputs.cache
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\obj\Debug\net6.0\RabitMQProducer.AssemblyInfo.cs
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\obj\Debug\net6.0\RabitMQProducer.csproj.CoreCompileInputs.cache
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\obj\Debug\net6.0\RabitMQProducer.csproj.CopyComplete
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\obj\Debug\net6.0\RabitMQProducer.dll
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\obj\Debug\net6.0\refint\RabitMQProducer.dll
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\obj\Debug\net6.0\RabitMQProducer.pdb
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\obj\Debug\net6.0\RabitMQProducer.genruntimeconfig.cache
+D:\Development\ShowAndTell\Streaming\KarateKafka\RabbitMQ\RabitMQFunction\RabitMQProducer\obj\Debug\net6.0\ref\RabitMQProducer.dll
