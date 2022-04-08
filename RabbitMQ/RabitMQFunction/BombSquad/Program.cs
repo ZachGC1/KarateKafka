@@ -1,7 +1,5 @@
-﻿using BombSquad.Models;
-using NBomber.Contracts;
+﻿using NBomber.Contracts;
 using NBomber.CSharp;
-using Newtonsoft.Json;
 
 using var httpClient = new HttpClient
 {
@@ -9,14 +7,13 @@ using var httpClient = new HttpClient
     Timeout = TimeSpan.FromMilliseconds(10000)
 };
 
-UserMove userMove = JsonConvert.DeserializeObject<UserMove>(System.IO.File.ReadAllText(@"C:\Repos\KarateKafka\SharedData\data.json"));
-
 var step = Step.Create("bomb_publisher", async context =>
 {
     try
     {
+        System.IO.File.ReadAllLines();
 
-        var response = await httpClient.PostAsync("api", );
+        var response = await httpClient.PostAsync("api/publish", );
 
         return response.IsSuccessStatusCode
             ? Response.Ok()

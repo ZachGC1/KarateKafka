@@ -106,19 +106,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ZaneSchoonraad\\.nuget\\packages\\": {}
+    "C:\\Users\\JoanitaNell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\ShowAndTell\\Streaming\\KarateKafka\\RabbitMQ\\RabitMQFunction\\RabitMQProducer\\RabitMQProducer.csproj",
+      "projectUniqueName": "C:\\Repos\\KarateKafka\\RabbitMQ\\RabitMQFunction\\RabitMQProducer\\RabitMQProducer.csproj",
       "projectName": "RabitMQProducer",
-      "projectPath": "D:\\Development\\ShowAndTell\\Streaming\\KarateKafka\\RabbitMQ\\RabitMQFunction\\RabitMQProducer\\RabitMQProducer.csproj",
-      "packagesPath": "C:\\Users\\ZaneSchoonraad\\.nuget\\packages\\",
-      "outputPath": "D:\\Development\\ShowAndTell\\Streaming\\KarateKafka\\RabbitMQ\\RabitMQFunction\\RabitMQProducer\\obj\\",
+      "projectPath": "C:\\Repos\\KarateKafka\\RabbitMQ\\RabitMQFunction\\RabitMQProducer\\RabitMQProducer.csproj",
+      "packagesPath": "C:\\Users\\JoanitaNell\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\KarateKafka\\RabbitMQ\\RabitMQFunction\\RabitMQProducer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ZaneSchoonraad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JoanitaNell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -164,7 +164,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

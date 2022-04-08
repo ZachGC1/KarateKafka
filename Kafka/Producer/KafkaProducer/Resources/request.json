@@ -1,0 +1,619 @@
+﻿{
+  "input": {
+    "items": [
+      {
+        "values": [
+          {
+            "label": "Private",
+            "value": "id_1",
+            "selected": true
+          },
+          {
+            "label": "Business",
+            "value": "id_2",
+            "selected": false
+          }
+        ],
+        "type": "oneOfMany",
+        "value": {
+          "label": "Private",
+          "value": "id_1"
+        },
+        "step": 0,
+        "id": "customerType",
+        "label": "Particulier/Zakelijk",
+        "highlight": false
+      },
+      {
+        "values": [
+          {
+            "label": "[Select&Drive] Financial Lease ABACUS test",
+            "value": "id_4",
+            "selected": true
+          }
+        ],
+        "type": "oneOfMany",
+        "info": "(Financial Lease is een aflopend krediet voor zakelijke klanten)",
+        "value": {
+          "label": "[Select&Drive] Financial Lease ABACUS test",
+          "value": "id_4",
+          "info": "(Financial Lease is een aflopend krediet voor zakelijke klanten)"
+        },
+        "step": 0,
+        "id": "fundingProduct",
+        "label": "Product",
+        "highlight": false
+      },
+      {
+        "type": "outputText",
+        "value": {
+          "label": "41.074,00 €",
+          "value": "41074.0",
+          "unit": "EUR",
+          "unitFormatted": "€",
+          "format": "###,###,###.00 €"
+        },
+        "step": 0,
+        "id": "carPrice",
+        "label": "Verkoopprijs incl. btw",
+        "subtype": "currency",
+        "highlight": false
+      },
+      {
+        "type": "number",
+        "value": {
+          "label": "509.181,81 €",
+          "value": "509181.81",
+          "unit": "EUR",
+          "unitFormatted": "€",
+          "format": "###,###,###.00 €"
+        },
+        "step": 0,
+        "id": "downpayment",
+        "label": "Aanbetaling",
+        "subtype": "currency",
+        "highlight": false
+      },
+      {
+        "values": [
+          {
+            "label": "1",
+            "value": "id_1",
+            "selected": false
+          },
+          {
+            "label": "2",
+            "value": "id_2",
+            "selected": false
+          },
+          {
+            "label": "3",
+            "value": "id_3",
+            "selected": false
+          },
+          {
+            "label": "4",
+            "value": "id_4",
+            "selected": false
+          },
+          {
+            "label": "5",
+            "value": "id_5",
+            "selected": false
+          },
+          {
+            "label": "6",
+            "value": "id_6",
+            "selected": false
+          },
+          {
+            "label": "7",
+            "value": "id_7",
+            "selected": false
+          },
+          {
+            "label": "8",
+            "value": "id_8",
+            "selected": false
+          },
+          {
+            "label": "9",
+            "value": "id_9",
+            "selected": false
+          },
+          {
+            "label": "10",
+            "value": "id_10",
+            "selected": false
+          },
+          {
+            "label": "11",
+            "value": "id_11",
+            "selected": false
+          },
+          {
+            "label": "12",
+            "value": "id_12",
+            "selected": false
+          },
+          {
+            "label": "13",
+            "value": "id_13",
+            "selected": false
+          },
+          {
+            "label": "14",
+            "value": "id_14",
+            "selected": false
+          },
+          {
+            "label": "15",
+            "value": "id_15",
+            "selected": false
+          },
+          {
+            "label": "16",
+            "value": "id_16",
+            "selected": false
+          },
+          {
+            "label": "17",
+            "value": "id_17",
+            "selected": false
+          },
+          {
+            "label": "18",
+            "value": "id_18",
+            "selected": false
+          },
+          {
+            "label": "19",
+            "value": "id_19",
+            "selected": false
+          },
+          {
+            "label": "20",
+            "value": "id_20",
+            "selected": false
+          },
+          {
+            "label": "21",
+            "value": "id_21",
+            "selected": false
+          },
+          {
+            "label": "22",
+            "value": "id_22",
+            "selected": false
+          },
+          {
+            "label": "23",
+            "value": "id_23",
+            "selected": false
+          },
+          {
+            "label": "24",
+            "value": "id_24",
+            "selected": false
+          },
+          {
+            "label": "25",
+            "value": "id_25",
+            "selected": false
+          },
+          {
+            "label": "26",
+            "value": "id_26",
+            "selected": false
+          },
+          {
+            "label": "27",
+            "value": "id_27",
+            "selected": false
+          },
+          {
+            "label": "28",
+            "value": "id_28",
+            "selected": false
+          },
+          {
+            "label": "29",
+            "value": "id_29",
+            "selected": false
+          },
+          {
+            "label": "30",
+            "value": "id_30",
+            "selected": false
+          },
+          {
+            "label": "31",
+            "value": "id_31",
+            "selected": false
+          },
+          {
+            "label": "32",
+            "value": "id_32",
+            "selected": false
+          },
+          {
+            "label": "33",
+            "value": "id_33",
+            "selected": false
+          },
+          {
+            "label": "34",
+            "value": "id_34",
+            "selected": false
+          },
+          {
+            "label": "35",
+            "value": "id_35",
+            "selected": false
+          },
+          {
+            "label": "36",
+            "value": "id_36",
+            "selected": false
+          },
+          {
+            "label": "37",
+            "value": "id_37",
+            "selected": false
+          },
+          {
+            "label": "38",
+            "value": "id_38",
+            "selected": false
+          },
+          {
+            "label": "39",
+            "value": "id_39",
+            "selected": false
+          },
+          {
+            "label": "40",
+            "value": "id_40",
+            "selected": false
+          },
+          {
+            "label": "41",
+            "value": "id_41",
+            "selected": false
+          },
+          {
+            "label": "42",
+            "value": "id_42",
+            "selected": false
+          },
+          {
+            "label": "43",
+            "value": "id_43",
+            "selected": false
+          },
+          {
+            "label": "44",
+            "value": "id_44",
+            "selected": false
+          },
+          {
+            "label": "45",
+            "value": "id_45",
+            "selected": false
+          },
+          {
+            "label": "46",
+            "value": "id_46",
+            "selected": false
+          },
+          {
+            "label": "47",
+            "value": "id_47",
+            "selected": false
+          },
+          {
+            "label": "48",
+            "value": "id_48",
+            "selected": true
+          },
+          {
+            "label": "49",
+            "value": "id_49",
+            "selected": false
+          },
+          {
+            "label": "50",
+            "value": "id_50",
+            "selected": false
+          },
+          {
+            "label": "51",
+            "value": "id_51",
+            "selected": false
+          },
+          {
+            "label": "52",
+            "value": "id_52",
+            "selected": false
+          },
+          {
+            "label": "53",
+            "value": "id_53",
+            "selected": false
+          },
+          {
+            "label": "54",
+            "value": "id_54",
+            "selected": false
+          },
+          {
+            "label": "55",
+            "value": "id_55",
+            "selected": false
+          },
+          {
+            "label": "56",
+            "value": "id_56",
+            "selected": false
+          },
+          {
+            "label": "57",
+            "value": "id_57",
+            "selected": false
+          },
+          {
+            "label": "58",
+            "value": "id_58",
+            "selected": false
+          },
+          {
+            "label": "59",
+            "value": "id_59",
+            "selected": false
+          },
+          {
+            "label": "60",
+            "value": "id_60",
+            "selected": false
+          },
+          {
+            "label": "61",
+            "value": "id_61",
+            "selected": false
+          },
+          {
+            "label": "62",
+            "value": "id_62",
+            "selected": false
+          },
+          {
+            "label": "63",
+            "value": "id_63",
+            "selected": false
+          },
+          {
+            "label": "64",
+            "value": "id_64",
+            "selected": false
+          },
+          {
+            "label": "65",
+            "value": "id_65",
+            "selected": false
+          },
+          {
+            "label": "66",
+            "value": "id_66",
+            "selected": false
+          },
+          {
+            "label": "67",
+            "value": "id_67",
+            "selected": false
+          },
+          {
+            "label": "68",
+            "value": "id_68",
+            "selected": false
+          },
+          {
+            "label": "69",
+            "value": "id_69",
+            "selected": false
+          },
+          {
+            "label": "70",
+            "value": "id_70",
+            "selected": false
+          },
+          {
+            "label": "71",
+            "value": "id_71",
+            "selected": false
+          },
+          {
+            "label": "72",
+            "value": "id_72",
+            "selected": false
+          }
+        ],
+        "type": "oneOfMany",
+        "value": {
+          "label": "48",
+          "value": "id_48"
+        },
+        "step": 0,
+        "id": "duration",
+        "label": "Looptijd",
+        "highlight": false
+      },
+      {
+        "type": "number",
+        "value": {
+          "label": "11.880,91 €",
+          "value": "11880.91",
+          "unit": "EUR",
+          "unitFormatted": "€",
+          "format": "###,###,###.00 €"
+        },
+        "step": 0,
+        "id": "balloon",
+        "label": "Slottermijn",
+        "subtype": "currency",
+        "highlight": false
+      },
+      {
+        "type": "number",
+        "value": {
+          "value": "0.0",
+          "unit": "EUR",
+          "unitFormatted": "€",
+          "format": "###,###,###.00 €"
+        },
+        "step": 0,
+        "id": "ma.bpmInput",
+        "label": "BPM",
+        "subtype": "currency",
+        "highlight": false
+      },
+      {
+        "type": "number",
+        "value": {
+          "value": "0.0",
+          "unit": "EUR",
+          "unitFormatted": "€",
+          "format": "###,###,###.00 €"
+        },
+        "step": 0,
+        "id": "ma.registrationCostsInput",
+        "label": "Registration costs",
+        "subtype": "currency",
+        "highlight": false
+      },
+      {
+        "type": "number",
+        "value": {
+          "value": "0.0",
+          "unit": "EUR",
+          "unitFormatted": "€",
+          "format": "###,###,###.00 €"
+        },
+        "step": 0,
+        "id": "ma.standardDeliveryCostsInput",
+        "label": "Standard delivery costs",
+        "subtype": "currency",
+        "highlight": false
+      },
+      {
+        "type": "number",
+        "value": {
+          "value": "0.0",
+          "unit": "EUR",
+          "unitFormatted": "€",
+          "format": "###,###,###.00 €"
+        },
+        "step": 0,
+        "id": "ma.wasteDisposalFeesInput",
+        "label": "Waste disposal fees",
+        "subtype": "currency",
+        "highlight": false
+      }
+    ],
+    "childContainers": [],
+    "id": "input",
+    "label": "Bereken uw maandbedrag"
+  },
+  "output": {
+    "rateData": -1,
+    "containers": [
+      {
+        "id": "output",
+        "label": "Details berekening",
+        "items": [
+          {
+            "businessValue": "-10148.28",
+            "value": "-10.148,28 €",
+            "id": "pmtGross",
+            "label": "Maandtermijn",
+            "subtype": "currency",
+            "highlight": true
+          },
+          {
+            "businessValue": "3.92",
+            "value": "3,92 ",
+            "id": "interestRate",
+            "label": "Rentepercentage",
+            "subtype": "percent",
+            "highlight": false
+          },
+          {
+            "businessValue": "41074.0",
+            "value": "41.074,00 €",
+            "id": "carPriceOutput",
+            "label": "Aanschafwaarde",
+            "subtype": "currency",
+            "highlight": false
+          },
+          {
+            "businessValue": "0.0",
+            "value": "0,00 €",
+            "id": "subsidy",
+            "label": "Subsidie",
+            "subtype": "currency",
+            "highlight": false
+          },
+          {
+            "businessValue": "509181.81",
+            "value": "509.181,81 €",
+            "id": "dpGross",
+            "label": "Aanbetaling",
+            "subtype": "currency",
+            "highlight": false
+          },
+          {
+            "businessValue": "-509181.81",
+            "value": "-509.181,81 €",
+            "id": "invoicingPrice",
+            "label": "Totaal kredietbedrag",
+            "subtype": "currency",
+            "highlight": false
+          },
+          {
+            "businessValue": "11880.91",
+            "value": "11.880,91 €",
+            "id": "rvBalloon",
+            "label": "Slottermijn",
+            "subtype": "currency",
+            "highlight": false
+          },
+          {
+            "businessValue": "48",
+            "value": "48",
+            "id": "numberInstallments",
+            "label": "Looptijd",
+            "highlight": false
+          }
+        ],
+        "childContainers": []
+      }
+    ],
+    "messages": [],
+    "links": [],
+    "alternativeConfigurationInstalments": [],
+    "financialCode": "905042d412f44cf08126ae77de689300",
+    "currency": "EUR",
+    "widgetTitle": "Bereken uw maandbedrag",
+    "rate": "-10.148,28 €",
+    "financingProduct": {
+      "id": "4",
+      "label": "[Select&Drive] Financial Lease ABACUS test",
+      "customerType": "private",
+      "productType": "Leasing",
+      "isCampaign": false,
+      "campaignLabel": "[Select&Drive] Financial Lease ABACUS test",
+      "campaignInfo": "(Financial Lease is een aflopend krediet voor zakelijke klanten)"
+    }
+  },
+  "opaque": "{\"customerType\":\"id_1\",\"fundingProduct\":\"id_4\",\"carPrice\":\"41074.0\",\"downpayment\":\"509181.81\",\"duration\":\"id_48\",\"balloon\":\"11880.91\",\"ma.bpmInput\":\"0.0\",\"ma.registrationCostsInput\":\"0.0\",\"ma.standardDeliveryCostsInput\":\"0.0\",\"ma.wasteDisposalFeesInput\":\"0.0\",\"financialCode\":\"905042d412f44cf08126ae77de689300\",\"campaignId\":7,\"bestOfferId\":797}",
+  "code": 200
+}
