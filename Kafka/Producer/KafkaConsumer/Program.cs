@@ -15,7 +15,7 @@ namespace KafkaConsumer
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
 
-            using var c = new ConsumerBuilder<Ignore, string>(conf).Build();
+            using var c = new ConsumerBuilder<string, string>(conf).Build();
             c.Subscribe("guid");
 
             // Because Consume is a blocking call, we want to capture Ctrl+C and use a cancellation token to get out of our while loop and close the consumer gracefully.
