@@ -8,7 +8,7 @@
         <script type="text/javascript">
             const container = document.getElementById('counter')
             const centrifuge = new Centrifuge("ws://localhost:8000/connection/websocket");
-            centrifuge.setToken("<TOKEN>");
+            centrifuge.setToken("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM3MjIiLCJleHAiOjE2NTAwMTM1MjR9.xJ9DV1oU6b2cwVtjjU90j-ZT19POY-meUZi8zNGu36U");
             
             centrifuge.on('connect', function(ctx) {
                 console.log("connected", ctx);

@@ -3,5 +3,8 @@
   "admin_password": "7546eb5e-7c3e-4cb8-90a9-537595cc9d8d",
   "admin_secret": "03ec0b43-047f-4b86-88fa-0daf4c74bb59",
   "api_key": "09fd409e-a2be-42f4-a10d-7cdb639d58d7",
-  "admin": true
+  "admin": true,
+  "allowed_origins": [
+    "http://localhost:3000"
+  ]
 }
