@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="BombSquad\**" />
+    <EmbeddedResource Remove="BombSquad\**" />
+    <None Remove="BombSquad\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="BombSquad\BombSquad.csproj" />
+  </ItemGroup>
+
 </Project>
