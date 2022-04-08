@@ -1,0 +1,40 @@
+{
+    "Users": [
+        {
+            "Name": "Zach",
+            "Level": "Black Belt 8th Dan Super Sensei",
+            "Weapon": "Sarcasm"
+        },
+        {
+            "Name": "Gavin",
+            "Level": "Loskop",
+            "Weapon": "Badly-timed 'That's what she said' Jokes"
+        }
+    ],
+    "Moves": [
+        {
+            "Name": "Ashi Barai",
+            "English": "Foot Sweep",
+            "Level": 1
+        }
+    ]
+}
+
+
+"Fumikomi": "Stomp or Stomping Kick"
+"Gedan Mawashi Geri": "Low Roundhouse Kick"
+"Hiza Geri": "Knee Strike"
+"Kakato Otoshi Geri": "Axe Kick"
+"Kansetsu Geri": "Joint Kick (usually attacking an opponent’s knee)"
+"Kin Geri": "Groin Kick"
+"Mae Geri": "Front Kick"
+"Mae Geri Keage": "Front Snap Kick"
+"Mae Geri Kekomi": "Front Thrust Kick"
+"Mae Tobi Geri": "Jumping Front Kick"
+"Mawashi Geri": "Roundhouse Kick"
+"Mikazuki Geri": "Crescent Kick"
+"Uchi Mikazuki Geri": "Inside Crescent Kick, In-To-Out Crescent Kick, etc."
+"Nidan Tobi Geri (or Nidan Geri)": "Jumping Double Front Kick"
+"Otoshi Mawashi Geri": "Downward Roundhouse Kick, Circular Falling Kick, Falling Roundhouse Kick, etc."
+"Tatsumaki Senpuu Kyaku": "Tornado Kick"
+}
