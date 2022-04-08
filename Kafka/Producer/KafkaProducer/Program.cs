@@ -10,29 +10,15 @@ namespace KafkaProducer
     {
         public static async Task Main()
         {
-            var config = new ProducerConfig
-            {
-                BootstrapServers = "localhost:9092"
-            };
-
-            var myId = Guid.NewGuid().ToString();
+            var producer = new MyKafkaProducer();
 
             var content = GetResourceFile($"{typeof(Program).Namespace}.Resources.request.json");
 
-            using var p = new ProducerBuilder<string, string>(config).Build();
-
             while (true)
             {
-                var message = new Message<string, string>()
-                {
-                    Key = myId,
-                    Value = content
-                };
+                await producer.Produce(content);
 
-                var dr = await p.ProduceAsync("guid", message);
-                Console.WriteLine($"Produced message on key {message.Key} to topic {dr.Topic}, partition {dr.Partition}, offset {dr.Offset}");
-
-                //Thread.Sleep(500);
+                // Thread.Sleep(1000);
             }
         }
 
