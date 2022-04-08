@@ -1,86 +1,86 @@
 {
-    "Users": [
-        {
-            "Name": "Zach",
-            "Level": "Black Belt 8th Dan Super Sensei",
-            "Weapon": "Sarcasm"
-        },
-        {
-            "Name": "Gavin",
-            "Level": "Loskop",
-            "Weapon": "Badly-timed 'That's what she said' Jokes"
-        },
+	"Users": [
+		{
+			"Name": "Zach",
+			"Level": "Black Belt 8th Dan Super Sensei",
+			"Weapon": "Sarcasm"
+		},
+		{
+			"Name": "Gavin",
+			"Level": "Loskop",
+			"Weapon": "Badly-timed 'That's what she said' Jokes"
+		},
 		{
 			"Name": "Anrich",
-            "Level": "Wonderer",
-            "Weapon": "I don't know answers"
+			"Level": "Wonderer",
+			"Weapon": "I don't know answers"
 		},
 		{
 			"Name": "Bryan",
-            "Level": "Cool guy",
-            "Weapon": "Wearing a mask"
+			"Level": "Cool guy",
+			"Weapon": "Wearing a mask"
 		},
 		{
 			"Name": "Sean",
-            "Level": "Wonderer",
-            "Weapon": ""
+			"Level": "Wonderer",
+			"Weapon": ""
 		},
 		{
 			"Name": "Charlene",
-            "Level": "Wonderer",
-            "Weapon": "Google master"
+			"Level": "Wonderer",
+			"Weapon": "Google master"
 		},
 		{
 			"Name": "Martinique",
-            "Level": "Junior",
-            "Weapon": "Maak 'n lekker braaibroodjie"
+			"Level": "Junior",
+			"Weapon": "Maak 'n lekker braaibroodjie"
 		},
 		{
 			"Name": "Darryn",
-            "Level": "Capetonion",
-            "Weapon": "Being tall"
+			"Level": "Capetonion",
+			"Weapon": "Being tall"
 		},
 		{
 			"Name": "David",
-            "Level": "Top Gear",
-            "Weapon": "Spits fire"
+			"Level": "Top Gear",
+			"Weapon": "Spits fire"
 		},
 		{
 			"Name": "Ebert",
-            "Level": "Black Belt 8th Dan Super Sensei",
-            "Weapon": "Ninja powers"
+			"Level": "Black Belt 8th Dan Super Sensei",
+			"Weapon": "Ninja powers"
 		},
 		{
 			"Name": "Ian",
-            "Level": "Black Belt 8th Dan Super Sensei",
-            "Weapon": "Maak 'n lekker braaibroodjie"
+			"Level": "Black Belt 8th Dan Super Sensei",
+			"Weapon": "Maak 'n lekker braaibroodjie"
 		},
 		{
 			"Name": "Jo",
-            "Level": "Purple Belt",
-            "Weapon": "Kan lekker braai"
+			"Level": "Purple Belt",
+			"Weapon": "Kan lekker braai"
 		},
 		{
 			"Name": "Wayne",
-            "Level": "Pink Black Belt",
-            "Weapon": "Swim 5km"
+			"Level": "Pink Black Belt",
+			"Weapon": "Swim 5km"
 		},
 		{
 			"Name": "Zane",
-            "Level": "White Belt",
-            "Weapon": "Hop on one leg"
+			"Level": "White Belt",
+			"Weapon": "Hop on one leg"
 		}
-    ],
-    "Moves": [
-        {
-            "Name": "Ashi Barai",
-            "English": "Foot Sweep",
-            "Level": 1
-        },
+	],
+	"Moves": [
+		{
+			"Name": "Ashi Barai",
+			"English": "Foot Sweep",
+			"Level": 1
+		},
 		{
 			"Name": "Fumikomi",
-            "English": "Stomp or Stomping Kick",
-            "Level": 2
+			"English": "Stomp or Stomping Kick",
+			"Level": 2
 		},
 		{
 			"Name": "Mae Geri",
@@ -277,6 +277,5 @@
 			"English": "Spear-hand",
 			"Level": 2
 		}
-
-    ]
+	]
 }
