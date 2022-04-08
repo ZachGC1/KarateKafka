@@ -29,16 +29,23 @@ namespace KafkaConsumer
 
             try
             {
-                ulong i = 0;
-
                 while (true)
                 {
-                    var cr = c.Consume(cts.Token);
-                    var msg = cr.Message;
+                    try
+                    {
 
-                    var move = JsonConvert.DeserializeObject<UserMove>(msg.Value);
 
-                    Console.WriteLine($"lv.{move.User.Level} user {move.User.Name} used {move.User.Weapon} to execute {move.Move.Name} at power {move.Move.Level}!");
+                        var cr = c.Consume(cts.Token);
+                        var msg = cr.Message;
+
+                        var move = JsonConvert.DeserializeObject<UserMove>(msg.Value);
+
+                        Console.WriteLine($"lv.{move.User.Level} user {move.User.Name} used {move.User.Weapon} to execute {move.Move.Name} at power {move.Move.Level}!");
+                    }
+                    catch
+                    {
+                        Console.WriteLine($"Invalid message!");
+                    }
                 }
             }
             catch (OperationCanceledException)

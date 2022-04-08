@@ -1,5 +1,7 @@
-﻿using Confluent.Kafka;
+﻿using BombSquad.Models;
+using Confluent.Kafka;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System;
 using System.Threading.Tasks;
 
@@ -17,14 +19,14 @@ namespace KafkaMoves.Controllers
         string myId = Guid.NewGuid().ToString();
 
         [HttpPost]
-        public async Task<string> UserMove(string move)
+        public async Task<string> UserMove([FromBody] UserMove move)
         {
             using var p = new ProducerBuilder<string, string>(config).Build();
             {
                 var message = new Message<string, string>()
                 {
                     Key = myId,
-                    Value = move
+                    Value = JsonConvert.SerializeObject(move)
                 };
 
                 var dr = await p.ProduceAsync("guid", message);
