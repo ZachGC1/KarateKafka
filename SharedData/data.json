@@ -1,0 +1,282 @@
+{
+    "Users": [
+        {
+            "Name": "Zach",
+            "Level": "Black Belt 8th Dan Super Sensei",
+            "Weapon": "Sarcasm"
+        },
+        {
+            "Name": "Gavin",
+            "Level": "Loskop",
+            "Weapon": "Badly-timed 'That's what she said' Jokes"
+        },
+		{
+			"Name": "Anrich",
+            "Level": "Wonderer",
+            "Weapon": "I don't know answers"
+		},
+		{
+			"Name": "Bryan",
+            "Level": "Cool guy",
+            "Weapon": "Wearing a mask"
+		},
+		{
+			"Name": "Sean",
+            "Level": "Wonderer",
+            "Weapon": ""
+		},
+		{
+			"Name": "Charlene",
+            "Level": "Wonderer",
+            "Weapon": "Google master"
+		},
+		{
+			"Name": "Martinique",
+            "Level": "Junior",
+            "Weapon": "Maak 'n lekker braaibroodjie"
+		},
+		{
+			"Name": "Darryn",
+            "Level": "Capetonion",
+            "Weapon": "Being tall"
+		},
+		{
+			"Name": "David",
+            "Level": "Top Gear",
+            "Weapon": "Spits fire"
+		},
+		{
+			"Name": "Ebert",
+            "Level": "Black Belt 8th Dan Super Sensei",
+            "Weapon": "Ninja powers"
+		},
+		{
+			"Name": "Ian",
+            "Level": "Black Belt 8th Dan Super Sensei",
+            "Weapon": "Maak 'n lekker braaibroodjie"
+		},
+		{
+			"Name": "Jo",
+            "Level": "Purple Belt",
+            "Weapon": "Kan lekker braai"
+		},
+		{
+			"Name": "Wayne",
+            "Level": "Pink Black Belt",
+            "Weapon": "Swim 5km"
+		},
+		{
+			"Name": "Zane",
+            "Level": "White Belt",
+            "Weapon": "Hop on one leg"
+		}
+    ],
+    "Moves": [
+        {
+            "Name": "Ashi Barai",
+            "English": "Foot Sweep",
+            "Level": 1
+        },
+		{
+			"Name": "Fumikomi",
+            "English": "Stomp or Stomping Kick",
+            "Level": 2
+		},
+		{
+			"Name": "Mae Geri",
+			"English": "Front Kick",
+			"Level": 4
+		},
+		{
+			"Name": "Kin Geri",
+			"English": "Groin Kick",
+			"Level": 1
+		},
+		{
+			"Name": "Kansetsu Geri",
+			"English": "Joint Kick (usually attacking an opponent’s knee)",
+			"Level": 5
+		},
+		{
+			"Name": "Kakato Otoshi Geri",
+			"English": "Axe Kick",
+			"Level": 5
+		},
+		{
+			"Name": "Hiza Geri",
+			"English": "Knee Strike",
+			"Level": 4
+		},
+		{
+			"Name": "Gedan Mawashi Geri",
+			"English": "Low Roundhouse Kick",
+			"Level": 1
+		},
+		{
+			"Name": "Mae Geri Keage",
+			"English": "Front Snap Kick",
+			"Level": 3
+		},
+		{
+			"Name": "Mae Geri Kekomi",
+			"English": "Front Thrust Kick",
+			"Level": 5
+		},
+		{
+			"Name": "Mae Tobi Geri",
+			"English": "Jumping Front Kick",
+			"Level": 3
+		},
+		{
+			"Name": "Mawashi Geri",
+			"English": "Roundhouse Kick",
+			"Level": 2
+		},
+		{
+			"Name": "Mikazuki Geri",
+			"English": "Crescent Kick",
+			"Level": 2
+		},
+		{
+			"Name": "Uchi Mikazuki Geri",
+			"English": "Inside Crescent Kick, In-To-Out Crescent Kick, etc.",
+			"Level": 2
+		},
+		{
+			"Name": "Nidan Tobi Geri (or Nidan Geri)",
+			"English": "Jumping Double Front Kick",
+			"Level": 4
+		},
+		{
+			"Name": "Otoshi Mawashi Geri",
+			"English": "Downward Roundhouse Kick, Circular Falling Kick, Falling Roundhouse Kick, etc.",
+			"Level": 4
+		},
+		{
+			"Name": "Tatsumaki Senpuu Kyaku",
+			"English": "Tornado Kick",
+			"Level": 1
+		},
+		{
+			"Name": "Choku-zuki",
+			"English": "Basic Punches",
+			"Level": 1
+		},
+		{
+			"Name": "Oi-zuki",
+			"English": "Basic Punches",
+			"Level": 2
+		},
+		{
+			"Name": "Gyaku-zuki",
+			"English": "Basic Punches",
+			"Level": 2
+		},
+		{
+			"Name": "Kisami-zuki",
+			"English": "Basic Punches",
+			"Level": 3
+		},
+		{
+			"Name": "Morote-zuki",
+			"English": "Double-hand punches",
+			"Level": 3
+		},
+		{
+			"Name": "Yama-zuki",
+			"English": "Double-hand punches",
+			"Level": 3
+		},
+		{
+			"Name": "Yumi-zuki",
+			"English": "Double-hand punches",
+			"Level": 2
+		},
+		{
+			"Name": "Awase-zuki",
+			"English": "Double-hand punches",
+			"Level": 4
+		},
+		{
+			"Name": "Heiko-zuki",
+			"English": "Double-hand punches",
+			"Level": 5
+		},
+		{
+			"Name": "Hasami-zuki",
+			"English": "Double-hand punches",
+			"Level": 2
+		},
+		{
+			"Name": "Ura-zuki",
+			"English": "Advance punches",
+			"Level": 2
+		},
+		{
+			"Name": "Age-zuki",
+			"English": "Advance punches",
+			"Level": 1
+		},
+		{
+			"Name": "Kage-zuki",
+			"English": "Advance punches",
+			"Level": 1
+		},
+		{
+			"Name": "Kage-zuki",
+			"English": "Advance punches",
+			"Level": 2
+		},
+		{
+			"Name": "Mawashi-zuki",
+			"English": "Advance punches",
+			"Level": 5
+		},
+		{
+			"Name": "Tate-zuki",
+			"English": "Advance punches",
+			"Level": 5
+		},
+		{
+			"Name": "Uke-zuki",
+			"English": "Advance punches",
+			"Level": 4
+		},
+		{
+			"Name": "Ippon-ken",
+			"English": "Fore-knuckle punches",
+			"Level": 2
+		},
+		{
+			"Name": "Nakadaka-ippon-ken",
+			"English": "Fore-knuckle punches",
+			"Level": 3
+		},
+		{
+			"Name": "hiraken",
+			"English": "Fore-knuckle punches",
+			"Level": 1
+		},
+		{
+			"Name": "Ippon-nukite",
+			"English": "Spear-hand",
+			"Level": 5
+		},
+		{
+			"Name": "Nihon-nukite",
+			"English": "Spear-hand",
+			"Level": 3
+		},
+		{
+			"Name": "Tate-nukite(shihon-nukite)",
+			"English": "Spear-hand",
+			"Level": 2
+		},
+		{
+			"Name": "Hira-nukite(shihon-nukite)",
+			"English": "Spear-hand",
+			"Level": 2
+		}
+
+    ]
+}
