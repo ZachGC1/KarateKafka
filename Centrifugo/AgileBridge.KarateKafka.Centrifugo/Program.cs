@@ -1,4 +1,5 @@
 ﻿using BombSquad.Models;
+using NBomber.Configuration;
 using NBomber.Contracts;
 using NBomber.CSharp;
 using Newtonsoft.Json;
@@ -32,8 +33,15 @@ var step = Step.Create("bomb_publisher", async context =>
     }
 });
 
-var scenario = ScenarioBuilder.CreateScenario("bomb_users_scenario", step)
+var scenario = ScenarioBuilder.CreateScenario("bomb_publisher_scenario", step)
    .WithWarmUpDuration(TimeSpan.FromSeconds(60))
    .WithLoadSimulations(
        Simulation.InjectPerSec(rate: 1000, during: TimeSpan.FromMinutes(2))
 );
+
+NBomberRunner
+  .RegisterScenarios(scenario)
+  .WithReportFileName("bomb_publisher_report_centrifugo")
+  .WithReportFolder("bomb_publisher_reports")
+  .WithReportFormats(ReportFormat.Txt, ReportFormat.Csv, ReportFormat.Html, ReportFormat.Md)
+  .Run();
