@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Web.Mvc;
 
-namespace RabitMQProducer
+namespace src.Microservice.Api.Controllers
 {
-    internal class Endpoints
+    [Route("")]
+    public class Endpoint : Controller
     {
+        public Endpoint()
+        {
+                
+        }
+
+        [HttpGet]
+        public IActionResult Get() 
+        {
+            
+        }
+
     }
 }

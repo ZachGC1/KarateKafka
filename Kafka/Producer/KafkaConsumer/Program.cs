@@ -1,6 +1,8 @@
 ﻿using Confluent.Kafka;
 using System;
 using System.Threading;
+using BombSquad.Models;
+using Newtonsoft.Json;
 
 namespace KafkaConsumer
 {
@@ -34,9 +36,9 @@ namespace KafkaConsumer
                     var cr = c.Consume(cts.Token);
                     var msg = cr.Message;
 
-                    Console.WriteLine($"Consumed message {i++}-{msg.Key} from topic {cr.Topic}, partition {cr.Partition}, offset {cr.Offset}");
+                    var move = JsonConvert.DeserializeObject<UserMove>(msg.Value);
 
-                    // Do something interesting with the message
+                    Console.WriteLine($"lv.{move.User.Level} user {move.User.Name} used {move.User.Weapon} to execute {move.Move.Name} at power {move.Move.Level}!");
                 }
             }
             catch (OperationCanceledException)
