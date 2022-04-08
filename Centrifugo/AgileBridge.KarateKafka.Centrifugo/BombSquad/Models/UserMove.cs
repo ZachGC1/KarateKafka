@@ -8,15 +8,13 @@ namespace BombSquad.Models
 {
     public class UserMove
     {
-        public UserMove(
-            List<User> users,
-            List<Move> moves
-            )
+        public UserMove(User user, Move move)
         {
-            Users = users;
-            Moves = moves;
+            User = user;
+            Move = move;
         }
-        public List<User> Users { get; set; }
-        public List<Move> Moves { get; set; }
+
+        public User? User { get; set; }
+        public Move? Move { get; set; }
     }
 }
